@@ -42,7 +42,7 @@ services:
   gitea_runner:
     image: gitea/act_runner:latest
     environment:
-      - GITEA_INSTANCE_URL=http://gitea:3000
+      - GITEA_INSTANCE_URL=http://host.docker.internal:3000
     env_file:
       - .env
     volumes:
