@@ -1,0 +1,6 @@
+[[runners]]
+   name = "test-1"
+   url = "http://gitlab.local"
+   token = "<GITLAB_RUNNER_TOKEN>"
+   output_limit = 50000000
+   executor = "shell"
