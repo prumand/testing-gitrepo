@@ -1,3 +1,4 @@
 gitea/
 postgres/
 
+.env
