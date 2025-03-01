@@ -2,7 +2,6 @@ services:
   gitlab:
     image: gitlab/gitlab-ee:latest
     container_name: gitlab
-    restart: always
     hostname: 'gitlab.local'
     environment:
       GITLAB_OMNIBUS_CONFIG: |
